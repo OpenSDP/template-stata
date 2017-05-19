@@ -1,0 +1,12 @@
+<script src="js/jquery.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery.tocify.js"></script> 
+ 
+<script> 
+	//Executes your code when the DOM is ready.  Acts the same as $(document).ready().
+	jQuery(document).ready(function ($) {
+		 $("#toc").tocify({ theme: "bootstrap", highlightOnScroll: true, highlightDefault: true});
+	});
+</script>
